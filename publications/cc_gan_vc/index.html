@@ -1,0 +1,144 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Audio samples of "Non-Parallel Many-To-Many Voice Conversion Using Cross-Cycle Consistency Loss"</title>
+  <link rel="stylesheet" type="text/css" href="../../stylesheet.css" />
+  <!-- <link rel="shortcut icon" href="../../images/taco.png"> -->
+</head>
+
+<body>
+  <article>
+    <header>
+      <h1>Audio samples of "Non-Parallel Many-To-Many Voice Conversion Using Cross-Cycle Consistency Loss"</h1>
+    </header>
+  </article>
+
+  <!-- <div><b>Paper:</b> <a href="https://arxiv.org/abs/1703.10135">arXiv</a> <a href="http://www.interspeech2017.org/program/technical-program/">Interspeech 2017</a></div> -->
+  <!-- <div><b>Authors:</b> Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, Rif A. Saurous</div> -->
+  <div><b>Abstract:</b> In this paper, we present a disentangled adversarial network for
+    many-to-many voice conversion using non-parallel data. In our
+    proposed method, content feature and attribute feature are ex-
+    tracted from inputs with different speaker domains. The content
+    feature is obtained from a content adversarial network while the
+    attribute feature is represented by a style embedding. Another
+    adversarial network serves a generator which synthesizes output
+    voice based on content feature and attribute feature. A cross-
+    cycle consistency loss is used to make content and attribute mi-
+    gration possible between a non-parallel voice pair. Experiments
+    are conducted and subjective evaluation shows that our model
+    can obtain good voice quality.</div>
+
+  <!-- <div><br/>All of the below phrases are unseen by Tacotron during training. <a href="../../index.html">Click here for more from the Tacotron team.</a></div> -->
+
+  <div>
+    <h3>P361(Female) -> P229(Female)</h3>
+    <table>
+      <tbody>
+        <tr>
+          <td><span><b>Source speech example</b></td></span>
+          <td><span><b>Target speech example</b></td></span>
+          <td><span><b>StarGAN-VC</b></td></span>
+          <td><span><b>Adaptive-VC</b></td></span>
+          <td><span><b>Proposed</b></td></span>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p262/source-p262_046.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p229/target_p229_023.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_046-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_046-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_046-vcto-p229.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p262/source-p262_056.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p229/target_p229_024.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_056-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_056-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FF262-229/A_p262_056-vcto-p229.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>P293(Female) -> P360(Male)</h3>
+    <table>
+      <tbody>
+        <tr>
+          <td><span><b>Source speech example</b></td></span>
+          <td><span><b>Target speech example</b></td></span>
+          <td><span><b>StarGAN-VC</b></td></span>
+          <td><span><b>Adaptive-VC</b></td></span>
+          <td><span><b>Proposed</b></td></span>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p293/source-p293_053.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p360/target_p360_042.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_053-vcto-p360.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_053-vcto-p360.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_053-vcto-p360.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p293/source-p293_117.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p360/target_p360_110.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_117-vcto-p360.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_117-vcto-p360.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/FM293-360/A_p293_117-vcto-p360.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h3>P232(Male) -> P229(Female)</h3>
+    <table>
+      <tbody>
+        <tr>
+          <td><span><b>Source speech example</b></td></span>
+          <td><span><b>Target speech example</b></td></span>
+          <td><span><b>StarGAN-VC</b></td></span>
+          <td><span><b>Adaptive-VC</b></td></span>
+          <td><span><b>Proposed</b></td></span>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p232/p232_008.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p229/target_p229_023.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_008-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_008-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_008-vcto-p229.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p232/p232_018.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p229/target_p229_024.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_018-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_018-vcto-p229.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MF232-229/p232_018-vcto-p229.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>P272(Male) -> P232(Male)</h3>
+    <table>
+      <tbody>
+        <tr>
+          <td><span><b>Source speech example</b></td></span>
+          <td><span><b>Target speech example</b></td></span>
+          <td><span><b>StarGAN-VC</b></td></span>
+          <td><span><b>Adaptive-VC</b></td></span>
+          <td><span><b>Proposed</b></td></span>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p272/p272_025.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p232/p232_008.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_025-vcto-p232.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_025-vcto-p232.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_025-vcto-p232.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><audio controls=""><source src="demos/raw/p272/p272_046.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/raw/p232/p232_027.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_046-vcto-p232.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_046-vcto-p232.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="demos/proposed/MM272-232/Bp272_046-vcto-p232.wav" type="audio/wav"></audio></td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+
+</html>
